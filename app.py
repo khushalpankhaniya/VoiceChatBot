@@ -4,7 +4,7 @@ engine = pyttsx3.init()
 
 while True:
 
-    x = input('Enter what you want me to speak (or type "exit" to quit): ')
+    x = input('Enter what you want me to speak (or type "exit" to stop): ')
 
     if x.lower() == 'exit':
         print("Goodbye!")
