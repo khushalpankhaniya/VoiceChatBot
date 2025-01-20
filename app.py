@@ -7,8 +7,8 @@ while True:
     x = input('Enter what you want me to speak (or type "exit" to stop): ')
 
     if x.lower() == 'exit':
-        print("Goodbye!")
-        engine.say("Goodbye!")
+        print("Goodbye")
+        engine.say("Goodbye")
         engine.runAndWait()
         break  
     
